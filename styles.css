@@ -7,10 +7,35 @@ body{
 	color:white;
 	text-align:center;
 	border-radius:5px;
+	padding:5px;
 }
 .latest-news-section{
 	background-color:white;
 	width:200px;
 	border-radius:5px;
 	text-align:center;
+	padding:5px;
+	margin:10px;
 }
+
+.main-article{
+	background-color:white;
+	width:200px;
+	border-radius:5px;
+	text-align:center;
+	padding:5px;
+	margin:10px;
+}
+.pictorial-news-section{
+	background-color:white;
+	width:200px;
+	border-radius:5px;
+	text-align:center;
+	padding:5px;
+	margin:10px;
+}
+.pictorial-news-section>img{
+	width:150px;
+}
+
+
