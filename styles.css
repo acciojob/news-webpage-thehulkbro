@@ -11,35 +11,18 @@ body{
 	border-radius:5px;
 	padding:5px;
 }
-.latest-news-section{
-	background-color:white;
-	width:200px;
-	border-radius:5px;
-	text-align:center;
-	padding:5px;
-	margin:4px;
-	
-	float:left;
-}
-
-.main-article{
-	background-color:white;
-	width:200px;
-	border-radius:5px;
-	text-align:center;
-	padding:5px;
-	margin:4px;
-	float:left;
-}
-.pictorial-news-section{
-	background-color:white;
-	width:200px;
-	border-radius:5px;
-	text-align:center;
-	padding:5px;
-	margin:4px;
-	float:right;
-}
+.latest-news-section,
+        .main-article,
+        .pictorial-news-section {
+            background-color: white;
+            width: 200px;
+            border-radius: 5px;
+            text-align: center;
+            padding: 5px;
+            margin: 4px;
+            display: inline-block; /* Use inline-block to align them horizontally */
+            vertical-align: top; /* Align them to the top */
+        }
 .pictorial-news-section>img{
 	width:150px;
 }
